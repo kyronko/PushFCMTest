@@ -18,17 +18,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FirebaseInstanceId.getInstance().getInstanceId().addOnCompleteListener(new OnCompleteListener<InstanceIdResult>() {
+        FirebaseInstanceId .getInstance().getInstanceId().addOnCompleteListener(new OnCompleteListener<InstanceIdResult>() {
             @Override
             public void onComplete(@NonNull Task<InstanceIdResult> task) {
-                if (!task.isSuccessful()){
-                    Toast.makeText(MainActivity.this, "FCM등록실패", Toast.LENGTH_SHORT).show();
+                if (!task.isSuccessful()) {
+                    Toast.makeText(MainActivity.this, "FCM 등록 실패", Toast.LENGTH_SHORT).show();
                     return;
                 }
-//                FCM 서버에 등록된 토큰값
+
+//                FCM 서버에 등록된 토큰 값
                 String token = task.getResult().getToken();
 
-                Log.d("발급된 토큰",token);
+                Log.d("발급된토큰", token);
+
             }
         });
     }
