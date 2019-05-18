@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "993073701170",
+    "firebase_url": "https://tjeit-pushtest-kyronko.firebaseio.com",
+    "project_id": "tjeit-pushtest-kyronko",
+    "storage_bucket": "tjeit-pushtest-kyronko.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993073701170:android:f60f43d3222cbb1c",
+        "android_client_info": {
+          "package_name": "com.tjedit.pushfcmtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993073701170-rt0pln60rba3kblos9vjv4esiml4jgbc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tjedit.pushfcmtest",
+            "certificate_hash": "fcd4d3030b3d750df6c0e0415ecd498242a8581a"
+          }
+        },
+        {
+          "client_id": "993073701170-28nr1q9jkveenngruk4ntgkk9kmsmgim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFvxlfoz8F2FJwNVHlddpxeRomPEK-m5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993073701170-28nr1q9jkveenngruk4ntgkk9kmsmgim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
